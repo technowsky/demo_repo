@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(34, 33, 33);
+    color: black;
+}
+
+#main {
+    display: flex;
+}
+
+#rightpanel {
+    background-color: gray;
+    text-align: center;
+    height: 250px;
+    width: 25%;
+}
+
+#rightpanel>h2:hover {
+    color: royalblue;
+}
+
+#leftpanel>h3:hover {
+    color: yellow;
+}
+
+#leftpanel {
+    background-color: darkgray;
+    width: 75%;
+}
